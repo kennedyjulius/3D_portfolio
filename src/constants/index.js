@@ -1,28 +1,27 @@
 import {
     mobile,
     backend,
-    creator,
+    flutter,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
+    laravellogo,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    
+    
+    deveintlogo,
+    Viciocodelogo,
+    ramitech,
+    sttheresa,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -42,21 +41,22 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Mobile Developer",
+      icon: mobile,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Web Developer",
+      icon: web,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Web 3 Developer",
+      icon: web,
     },
+    
   ];
   
   const technologies = [
@@ -65,8 +65,8 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Laravel",
+      icon: laravellogo,
     },
     {
       name: "JavaScript",
@@ -81,8 +81,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Tailwind CSS",
