@@ -16,20 +16,21 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import flutter from "./tech/flutter.svg";
+import laravel from "./tech/laravellogo.svg";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import sttheresa from "./company/sttheresa.png";
+import ramitech from "./company/ramitech.png";
+import Viciocodelogo from "./company/vicicodelogo.png";
+import deveintlogo from "./company/deveintlogo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import bettingtipsapp from "./bettingtipsapp.jpeg";
+import konnectui from "./konnectui.jpeg";
+import sokoflow from "./sokoflow.jpeg";
+import foodapp from "./foodapp.jpeg"
 export {
   logo,
   backend,
@@ -48,15 +49,17 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  laravel,
+  flutter,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Viciocodelogo,
+  sttheresa,
+  deveintlogo,
+  ramitech,
+  foodapp,
+  bettingtipsapp,
+  sokoflow,
+  konnectui,
 };

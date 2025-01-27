@@ -7,20 +7,23 @@ import {
     typescript,
     html,
     css,
+    threejs,
     reactjs,
-    laravellogo,
+    laravel,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    
-    
     deveintlogo,
     Viciocodelogo,
     ramitech,
     sttheresa,
+    foodapp,
+    bettingtipsapp,
+    konnectui,
+    sokoflow,
     
   } from "../assets";
   
@@ -66,7 +69,7 @@ import {
     },
     {
       name: "Laravel",
-      icon: laravellogo,
+      icon: laravel,
     },
     {
       name: "JavaScript",
@@ -116,55 +119,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Flutter Developer",
+      company_name: "Deveint Limited",
+      icon: deveintlogo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2024- Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining Mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
+        "Participating in code reviews and maintenace to company code.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Developer",
+      company_name: "Viciocodetech limited",
+      icon: Viciocodelogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - Nov 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining mobile applications using Flutter and Laravel for Backend.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in code reviews and maintenance and debugging",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Network Technician",
+      company_name: "Ramitech Networks",
+      icon: ramitech,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Installation and Maintenance of clients Fiber networks",
+        "Running fiber cables to clients premises.",
+        "configuration and troubleshooting of  routers.",
+        "configuring new clients routers ",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "ICT Intern",
+      company_name: "St Theresa Mission Hospital -Kiirua",
+      icon: sttheresa,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaning new Lan Network",
+        "Offering ICT support to company devices and computing assets when required.",
+        "Monitoring and maintenance of company systems and giving feeddback where necessary",
+        "Maintenace of company Servers and Hosted Platforms",
       ],
     },
   ];
@@ -198,33 +201,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Food App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mobile-based solution that allows users to Order, Pay and get Food delivered  at their places of work , Bussiness complex and other areas",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "laravel",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: foodapp,
+      source_code_link: "https://github.com/kennedyjulius/food_App_dbstech",
     },
     {
-      name: "Job IT",
+      name: "Football Tips",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Mobile application that enables users to  get latest updates on tips of coming matches and help them make sound choices.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
@@ -232,24 +235,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bettingtipsapp,
+      source_code_link: "https://github.com/kennedyjulius/football_tips",
     },
     {
-      name: "Trip Guide",
+      name: "Sokoflow V1",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive travel Merchandizing platform that allows employees be able to manage stocks effectivelly while management gets real time updates and reports and schedule routes.",
       tags: [
         {
-          name: "nextjs",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "laravel",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +260,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sokoflow,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.sidai.sokoflow",
+    },
+
+    {
+      name: "Konnect UI",
+      description:
+        "A UI/UX clone of the famous E-Commerce Platfor powered by connect.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: konnectui,
+      source_code_link: "https://github.com/kennedyjulius",
     },
   ];
   
